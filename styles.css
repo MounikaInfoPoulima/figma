@@ -7,7 +7,7 @@ body {
 
 /* Header Styling */
 h4 {
-    color: aqua;
+    color: rgb(12, 75, 75);
     margin: 10px;
 }
 
@@ -17,7 +17,7 @@ h4 {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: white;
+    
 }
 
 .search-container {
@@ -47,6 +47,12 @@ h4 {
     background: none;
     border: none;
     outline: none;
+}
+
+@media (max-width: 600px) {
+    .search-icon {
+        max-width: 18px; /* Adjusts the icon size for smaller screens */
+    }
 }
 #search-btn svg {
     width: 20px; /* Set a fixed width for the SVG */
@@ -204,4 +210,15 @@ h4 {
     #heading1 {
         font-size: x-large;
     }
+}
+
+.para{
+    font-family: 'Arial', sans-serif;  /* Font family */
+  font-size: 23px;                  /* Font size */
+  font-weight: bold;                /* Font weight */
+  color: #333;                      /* Text color */
+  margin-top: 10px;                 /* Margin between image and text */
+  line-height: 1.o;  
+  text-align: center;
+
 }
